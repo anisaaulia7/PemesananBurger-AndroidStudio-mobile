@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".order"
+    android:background="@drawable/bglima"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <EditText
+        android:id="@+id/etnm"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:background="#ccbcaf"
+        android:ems="15"
+        android:fontFamily="sans-serif-medium"
+        android:hint="Nama Lengkap"
+        android:inputType="textPersonName"
+        android:nextFocusDown="@id/etem"
+        android:textAlignment="center"
+        android:textColor="#F9F7F2"
+        android:textColorHint="#F9F7F2" />
+
+    <EditText
+        android:id="@+id/etem"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_below="@id/etnm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#ccbcaf"
+        android:ems="15"
+        android:fontFamily="sans-serif-medium"
+        android:hint="Alamat Lengkap"
+        android:inputType="textPostalAddress"
+        android:nextFocusDown="@id/etps"
+        android:textAlignment="center"
+        android:textColor="#F9F7F2"
+        android:textColorHint="#F9F7F2" />
+
+    <EditText
+        android:id="@+id/etps"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_below="@id/etem"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#ccbcaf"
+        android:ems="15"
+        android:fontFamily="sans-serif-medium"
+        android:hint="Nama Burger"
+        android:inputType="text"
+        android:nextFocusDown="@id/tvjk"
+        android:textAlignment="center"
+        android:textColor="#F9F7F2"
+        android:textColorHint="#F9F7F2" />
+
+    <TextView
+        android:id="@+id/tvjk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etps"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:background="#ccbcaf"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="15dp"
+        android:textColor="#F9F7F2"
+        android:textStyle="bold"
+        android:text="Rasa Varian"
+        android:textColorHint="#F9F7F2"
+         />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvjk"
+        android:id="@+id/rb"
+        >
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pedas"
+        android:id="@+id/rb1"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tidak Pedas"
+        android:id="@+id/rb2"
+        android:layout_marginLeft="30dp"/>
+
+</RadioGroup>
+
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:onClick="kirimdata"
+        android:text="ORDER" />
+
+
+</RelativeLayout>

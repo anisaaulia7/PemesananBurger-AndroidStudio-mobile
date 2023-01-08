@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">proyekakhir</string>
+    <string name="burger_name">Burger Name</string>
+    <string name="detail">Detail</string>
+
+    <string-array name="nama_prodi">
+        <item>iyaa</item>
+        <item>engga</item>
+        <item>ui</item>
+        <item>udinus</item>
+        <item>yayya</item>
+
+    </string-array>
+</resources>
