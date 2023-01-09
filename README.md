@@ -13,12 +13,16 @@ It is hoped that the `login feature can be used in the future` after registering
 * Drawable
 * Android Manifest
 
-## :round_pushpin: This is what you need to Run this project:
-1. Smartphone
-2. Android Studio
-3. USB cable.
+## Contribution Scheme
+Anyone can contribute to the development of this application. Read the full contribution scheme here :shipit:
 
-:shipit:
+## Android Studio Setup
+1. On your phone, search Developers Option and USB debugging then TURN IT ON. 
+2. Install Android Studio on your PC.
+3. Open project in Android Studio.
+4. Connect your Smartphone using a USB cable to the PC and wait until your phone has detected.
+5. After that, look at the green button on the top right (Run).
+6. The project has appeared on your Smartphone.
 
 ## This project Interface
 ![gambar](https://user-images.githubusercontent.com/122200738/211205098-aed2e73a-d89c-4240-83b8-2beb03c5c13f.png)
