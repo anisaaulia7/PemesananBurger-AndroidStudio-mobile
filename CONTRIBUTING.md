@@ -12,4 +12,7 @@ You are expected to understand the basic commands and feature functions of Andro
 If this is your first time contributing, please take the following steps:
 1. Fork the PemesananBurger-AndroidStudio-mobile repository by going to the <a href="https://github.com/anisaaulia7/PemesananBurger-AndroidStudio-mobile">Main Page</a>, then selecting the fork in the upper right corner.
 2. Choose your username to fork.
-3. Clone the repository that you have forked, by typing
+3. Clone the repository that you have forked, by typing `git clone https://github.com/<username Anda>/PemesananBurger-AndroidStudio-mobile.git`
+4. Do git remote add upstream `https://github.com/anisaaulia7/PemesananBurger-AndroidStudio-mobile.git`. This command aims to create a remote named upstream that refers to the PemesananBurger-AndroidStudio-mobile repository, so you can pull from the PemesananBurger-AndroidStudio-mobile repository to your forked repository.
+
+
