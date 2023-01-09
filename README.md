@@ -8,14 +8,19 @@ The problem that the developer encountered in making this application is:
 Even though there is a registration feature for users, after registering users `will immediately enter` the application without having to log in first.
 It is hoped that the `login feature can be used in the future` after registering.
 
+## Content
+* Application folder include all Burger codes with Java type.
+* Drawable
+* Android Manifest
+
 ## :round_pushpin: This is what you need to Run this project:
 1. Smartphone
 2. Android Studio
 3. USB cable.
 
-[Contribution guidelines for this project](docs/CONTRIBUTING.md) :shipit:
+:shipit:
 
-## HOW THIS PROJECT INTERFACE:
+## This project Interface
 ![gambar](https://user-images.githubusercontent.com/122200738/211205098-aed2e73a-d89c-4240-83b8-2beb03c5c13f.png)
 
 ### Developer:
@@ -24,4 +29,5 @@ It is hoped that the `login feature can be used in the future` after registering
 | Anisa Aulia  | 191013015  |
 
 🤝 Connect with me:
-🐦 Twitter: https://twitter.com/icacutegirl
+
+https://twitter.com/icacutegirl
