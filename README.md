@@ -24,10 +24,7 @@ Anyone can contribute to the development of this application. Read the full cont
 5. After that, look at the green button on the top right (Run).
 6. The project has appeared on your Smartphone.
 
-## This project Interface
-![gambar](https://user-images.githubusercontent.com/122200738/211205098-aed2e73a-d89c-4240-83b8-2beb03c5c13f.png)
-
-### Developer:
+### Dev:
 | Name  | NPM |
 | ------------- | ------------- |
 | Anisa Aulia  | 191013015  |
