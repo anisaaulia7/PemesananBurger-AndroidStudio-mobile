@@ -14,7 +14,7 @@ It is hoped that the `login feature can be used in the future` after registering
 * Android Manifest
 
 ## Contribution Scheme
-Anyone can contribute to the development of this application. Read the full contribution scheme here :shipit:
+Anyone can contribute to the development of this application. Read the full <a href="https://github.com/anisaaulia7/PemesananBurger-AndroidStudio-mobile/blob/main/CONTRIBUTING.md">Contribution Scheme here</a> :shipit:
 
 ## Android Studio Setup
 1. On your phone, search Developers Option and USB debugging then TURN IT ON. 
